@@ -26,13 +26,13 @@ export default (state = [], action) => {
         case REMOVE_TODO: {
             return state.filter((todoItem) => {
                 if (todoItem.id === action.id) {
-                    return true;
+                    return false;
                 }
-                return false;
+                return true;
             });
         }
     
         default:
-            break;
+            return state;
     }
-}
+};

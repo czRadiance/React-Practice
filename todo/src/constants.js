@@ -1,5 +1,5 @@
 export const FilterTypes = {
-    ALL: 'all',
-    COMPLETED: 'completed',
-    UNCOMPLETED: 'uncompleted'
+    ALL: 'All',
+    COMPLETED: 'Completed',
+    UNCOMPLETED: 'Uncompleted'
 }

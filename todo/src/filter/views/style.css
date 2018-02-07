@@ -1,0 +1,17 @@
+.filters {
+  font-size: 20px;
+}
+
+.filters .filter {
+  margin: 3px;
+  padding: 3px 7px;
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.filters .selected {
+  border: none;
+  cursor: auto;
+}
+
